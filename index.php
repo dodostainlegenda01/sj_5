@@ -35,6 +35,17 @@
 
         // komentar
 
+        //nove pole
+        $obdobia = array("jar","leto","jesen","zima");
+        echo $obdobia[0];
+        echo("<br>");
+
+        //novy cyklus
+        foreach($obdobia as $obdobie){
+            echo "Obdobie:". $obdobie. "<br>";
+        }
+        
+
     ?>
 </body>
 </html>
